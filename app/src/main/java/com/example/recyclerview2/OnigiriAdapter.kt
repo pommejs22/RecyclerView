@@ -41,6 +41,7 @@ class OnigiriAdapter(private var onigiriList: ArrayList<Onigiri>) :
         }
     }
 
+
     override fun getItemCount(): Int {
         return onigiriList.size
     }
