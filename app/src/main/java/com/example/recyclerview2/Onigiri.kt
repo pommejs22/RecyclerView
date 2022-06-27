@@ -19,6 +19,7 @@ data class Onigiri(
         parcel.writeInt(image)
         parcel.writeString(name)
         parcel.writeString(text)
+
     }
 
     override fun describeContents(): Int {
