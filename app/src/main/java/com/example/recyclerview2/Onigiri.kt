@@ -4,9 +4,10 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class Onigiri(
-    val image: Int,
-    val name: String,
-    val text: String) : Parcelable {
+    val image: Int, // 画像
+    val name: String, //おにぎりの名前
+    val text: String //説明
+    ) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
         parcel.readString()!!,
