@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 
-//リストに表示させるデータを保持するはViewHolder
+//リストに表示させるデータを保持するはViewHolder。
 // ビューホルダーを管理してリストを画面表示するロジックを担うはAdapter
 class OnigiriAdapter(private var onigiriList: ArrayList<Onigiri>) :
     RecyclerView.Adapter<OnigiriAdapter.OnigiriViewHolder>() {
