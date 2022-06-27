@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 
 /**
-  2022/06/24 作成
+  2022/06/24 作成 RecyclerView
  *
  */
 //リストに表示させるデータを保持するはViewHolderである。
